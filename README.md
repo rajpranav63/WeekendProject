@@ -2,7 +2,7 @@
 
 ###  Problem statement :
  
-Store tweets from accounts(atleast 20) you're following and the tweets you have done using java Rest API. Store those tweets in mongoDB.
+Store reddit from subreddit you're following and the posts you have done using java Rest API. Store those posts in mongoDB.
 #### Then your database of tweets should be able to handle the following <br />
 ```
 1)Find reddit post containing keyword given by user in the input
@@ -10,7 +10,7 @@ Store tweets from accounts(atleast 20) you're following and the tweets you have 
 3)Find all reddit posts of x userName given by user in the input
 4)Sort all reddit posts based on timestamp of creation
 5)Publish a reddit post from your account via code api
-6)Post done from twitter should be stored in your database automatically if twitter hit you API when you post
+6)Post done from reddit should be stored in your database automatically if reddit hit you API when you post
 ```
 Use springdata framework to integrate mongoDB, use gradle to build project. Use jackson library to store posts data received from reddit and convert to java bean.
 
